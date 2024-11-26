@@ -8,13 +8,17 @@
 
 ## Как работает?
 
-Он берёт дравер microsoft Edge и запускает чистый браузер, после чего забирает с Excel данные, находит строчки по Path и вводит на сайте
+Он берёт драйвер microsoft Edge и запускает чистый браузер, после чего забирает с Excel данные, находит строчки по X.Path и вводит на сайте данные с эксель, 
 
 ## Использованные библиотеки:
 Pandas - https://github.com/pandas-dev/pandas
 
 Selenium - https://github.com/SeleniumHQ/selenium
 
+Microsoft Edge webdriver - https://developer.microsoft.com/ru-ru/microsoft-edge/tools/webdriver/?form=MA13LH
+
 ## Установка
 1. Скачать все файлы
-2.
+2. Установить все библиотеки 
+3. Загрузить в PyCharm код
+4. Запусть код
