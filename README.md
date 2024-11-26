@@ -3,22 +3,33 @@
 </p>
 
 ## Мой проект - 
+Привет, меня зовут Егор Мужиков. Данный проект сделан в целях сбивания Excel-данных на сайт [RpaChallenge](https://www.rpachallenge.com/).
 
-Это код, который сделан на PyCharm Community Edition 2023.3.5, написанный на Python. Там используется библиотеки, что буду указаны снизу
+Этот код, который сделан на PyCharm Community Edition 2023.3.5, написанный на Python. Там используется библиотеки, что будут указаны снизу
 
 ## Как работает?
 
-Он берёт драйвер microsoft Edge и запускает чистый браузер, после чего забирает с Excel данные, находит строчки по X.Path и вводит на сайте данные с эксель, 
+Он берёт драйвер microsoft Edge и запускает чистый браузер, после чего забирает с Excel данные, находит строчки по X.Path и вводит на сайте данные с Excel-файла 
 
 ## Использованные библиотеки:
-Pandas - https://github.com/pandas-dev/pandas
-
-Selenium - https://github.com/SeleniumHQ/selenium
-
+Также в терминале Pycharm можно удобно установить через pip install библиотеки (советую, ибо это удобнее и практичнее). Вебдравер ставится отдельно с соотвествием версией Microsoft Edge 
 Microsoft Edge webdriver - https://developer.microsoft.com/ru-ru/microsoft-edge/tools/webdriver/?form=MA13LH
 
-## Установка
+[Selenium:](https://github.com/SeleniumHQ/selenium) 
+````
+pip install selenium
+````
+[Pandas:](https://github.com/pandas-dev/pandas) 
+````
+pip install pandas
+````
+Сразу обе библиотеки:
+````
+pip install selenium pandas 
+````
+
+## Установка   
 1. Скачать все файлы
 2. Установить все библиотеки 
 3. Загрузить в PyCharm код
-4. Запусть код
+4. Запустить код
